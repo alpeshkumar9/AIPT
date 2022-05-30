@@ -1,5 +1,20 @@
 # AIPT Project: Tower of Hanoi
 
+**Goal:** You will reflect upon the search algorithms learned during the lectures and implement two of them to solve the Tower of Hanoi.
+
+![Tower of Hanoi](https://user-images.githubusercontent.com/8064993/171058046-ce4f1c57-e2fc-4b53-afb8-05ffadc57f46.png)
+
+**Setting of the game:**
+- The Tower of Hanoi is a puzzle game with usually 3 pegs and a fixed number of disks. For this project, we will use 4 pegs. Consider n > 0 number of discs.
+- Initial state: At the start, all the disks are in the leftmost peg, with the largest disk on the bottom and the smallest on the top.
+- Goal state: All disks are moved over to the rightmost peg.
+
+**Rules of the game:**
+- You can only move one disk to any other peg in each move, and you can only move the top disk on a peg.
+- The top disk of any peg can be moved to the top disk of any other peg, with the restriction that you cannot move a larger disk on top of a smaller disk (i.e., disks can only be moved to empty pegs or on top of larger disks).
+- This is a unit-cost domain, all moves cost the same. Path cost is its length.
+
+
 1) Rationale behind the representation you have chosen for the problem.
     - For building tower of Hanoi in Python language, we have used “Lists”, which are built-in data structures in Python. Furthermore, “Lists” provides the option to store create any number of list in a “Lists” and also follows FIFO technology which we found to be very useful in order to solve problem.
 
